@@ -1,0 +1,46 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+ask for a number
+ask yes or no if the number can be divided by 2
+if yes, print on the screen "The number is even."
+if no, print on the screen "The number is odd."
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+a) Enter the first number and save it as a variable named "number1". Enter the second number and save it as a variable named "number2". Enter the third number and save it as a variable named "number3". Enter the fourth number and save it as a variable named "number4". Enter the fifth number and save it as a variable named "number5".
+b) Calculate the sum of all the numbers: sum = number1 + number2 + number3 + number4 + number5. Then divide the sum by 5 to calculate the average: average = sum / 5. 
+    Save a variable for the "average".
+c) Enter a variable named "minimum" and set the value to "number1". Enter a variable named "maximum" and set the value to "number1". 
+    Go through each of the numbers one by one (starting from the second number).
+    Compare each of the remaining numbers (number2 to number5) with the value in the "minimum" variable.
+        If the current number is smaller than the value in the "minimum" variable, update the value in the "minimum" variable to be the current number.
+    Compare each of the remaining numbers (number2 to number5) with the value in the "maximum" variable.
+        If the current number is larger than the value in the "maximum" variable, update the value in the "maximum" variable to be the current number.
+    Save a variable for the result for minimum as "minimum". Save a variable for the results for maximum as "maximum".
+d) step b
+    Print a message "The average of the 5 numbers is [average]" 
+        where [average] is the value stored in the "average" variable.
+   step c
+    Print a message "The smallest number is [minimum] and the largest number is [maximum]".
+    where [minimum] is the value stored in the "minimum" variable and [maximum] is the value stored in the "maximum" variable.
+
+-- END --
